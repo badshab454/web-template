@@ -1,0 +1,199 @@
+/*  #####  Responsive CSS  #####  */
+
+
+@media all and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .logo-area {
+        width: 20%;
+    }
+    .menu-area {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 720px) {
+    h4 {
+        font-size: 15px;
+    }
+    .subscribe input[type="text"] {
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+    .logo-area img {
+        width: 50px;
+    }
+    .menu-area ul li a {
+        font-size: 20px;
+    }
+    .slider {
+        padding: 70px 0 100px 0;
+    }
+    .about-us {
+        padding: 60px 0;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .product h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    .slider .button {
+        padding: 20px 40px;
+    }
+    .product img {
+        width: 80px;
+    }
+    .col-md-4 {
+        width: 24%;
+    }
+    .middle {
+        padding-left: 14%;
+    }
+    .girl-picture img {
+        width: 90px;
+    }
+    .text-comment h2 {
+        font-size: 16px;
+    }
+    .text-comment h4 {
+        font-size: 13px;
+    }
+    .subscribe input[type="text"] {
+        padding-right: 30px;
+    }
+    .subscribe form input {
+        font-size: 13px;
+    }
+    .about-company h2 {
+        font-size: 20px;
+    }
+    .about-company h4 {
+        font-size: 14px;
+    }
+    .about-company .middle nav ul li a {
+        font-size: 14px;
+    }
+    .about-company .last ul li a img {
+        width: 10px;
+        height: 18px;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .header-area {
+        padding: 15px 0;
+    }
+    .menu-area ul li a {
+        font-size: 13px;
+        margin-right: 11px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+    .slider {
+        padding: 50px 0 80px 0;
+    }
+    .slider .button {
+        padding: 15px 30px;
+    }
+    .product {
+        padding-top: 30px;
+    }
+    .product img {
+        width: 60px;
+    }
+    .product h2 {
+        font-size: 16px;
+    }
+    .product h4 {
+        font-size: 8px;
+    }
+    .about-us {
+        padding: 40px 0;
+    }
+    .about-us .left-area {
+        width: 50%;
+    }
+    .about-us .left-area h2 {
+        padding: 12px 0;
+    }
+    .about-us .left-area h4 {
+        font-size: 11px;
+    }
+    .about-us .right-area img {
+        width: 100%;
+    }
+    .forma-left img {
+        width: 15px;
+        margin-top: 25px;
+    }
+    .girl-picture img {
+        width: 70px;
+    }
+    .text-comment h2 {
+        font-size: 14px;
+    }
+    .text-comment h4 {
+        font-size: 9px;
+    }
+    .comment-area .last img {
+        width: 15px;
+        margin-top: 25px;
+    }
+    .subscribe input[type="text"] {
+        padding-right: 0px;
+    }
+    .subscribe form input {
+        font-size: 11px;
+        padding: 15px 30px;
+    }
+    .about-company h2 {
+        font-size: 15px;
+    }
+    .about-company h4 {
+        font-size: 11px;
+    }
+    .about-company .middle nav ul li a {
+        font-size: 11px;
+    }
+    .about-company .last ul li a img {
+        width: 9px;
+        height: 15px;
+    }
+    .footer-area p {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

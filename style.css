@@ -1,0 +1,377 @@
+
+/*  #####  Common CSS Starts Here  #####  */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #2A2A2A;
+}
+
+h3 {
+    text-transform: none;
+    font-size: 18px;
+}
+
+/*  #####  Common CSS Ends Here  #####  */
+
+/*  #####  Header Area Starts Here  #####  */
+
+
+.header-area {
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.logo-area {
+    width: 35%;
+    float: left;
+}
+
+.logo-area img {
+    width: 60px;
+    height: auto;
+}
+
+
+.menu-area {
+    width: 65%;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.menu-area ul {
+    margin: 0;
+    float: left;
+}
+
+.menu-area ul li {
+    display: inline;
+    list-style: none;
+}
+
+.menu-area ul li a {
+    color: #515151;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.menu-area ul li:hover a {
+    color: #8DCD37;
+}
+
+/*  #####  Header Area Ends Here  #####  */
+
+/*  #####  Slider Area Starts Here  #####  */
+
+.slider {
+    padding: 100px 0 140px 0;
+    text-align: center;
+    background: url('img/slide.jpg');
+    background-size: 100% 100%;
+}
+
+.slider h3 {
+    margin: 25px 0 60px 0;
+}
+
+.slider .button {
+    color: #2E2E2E;
+    background-color: #fff;
+    padding: 25px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.slider .button:hover {
+    color: #ffffff;
+    background-color: #666666;
+    transition: all 0.6s;
+}
+
+
+/*  #####  Slider Area Ends Here  #####  */
+
+/*  #####  Our Product Area Starts Here  #####  */
+
+.our-product {
+    padding: 40px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product {
+    padding-top: 50px;
+}
+
+.col-md-4 {
+    float: left;
+    width: 22%;
+}
+
+.middle {
+    padding-left: 17%;
+}
+
+.last {
+    float: right;
+}
+
+
+.product img {
+    width: 90px;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+
+/*  #####  Our Product Area Ends Here  #####  */
+
+/*  #####  About Us Area Starts Here  #####  */
+
+.about-us {
+    color: #2A2A2A;
+    background-color: #F0F0F0;
+    padding: 90px 0;
+    overflow: hidden;
+}
+
+.about-us .left-area {
+    float: left;
+    width: 35%;
+}
+
+.about-us .right-area {
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+
+.about-us .left-area h2 {
+    padding: 35px 0;
+}
+
+.about-us .right-area img {
+    width: 300px;
+    height: auto;
+}
+
+/*  #####  About Us Area Ends Here  #####  */
+
+/*  #####  Comment Area Starts Here  #####  */
+
+.comment-area {
+    padding: 45px 0;
+    overflow: hidden;
+}
+
+.col-md-3 {
+    float: left;
+}
+
+.forma-left {
+    width: 15%;
+}
+
+.forma-left img {
+    width: 20px;
+    margin-top: 35px;
+}
+
+.girl-picture {
+    width: 20%;
+}
+
+.girl-picture img {
+    width: 125px;
+    height: auto;
+}
+
+.text-comment {
+    width: 50%;
+}
+
+.text-comment h2 {
+    font-size: 19px;
+    padding: 10px 0;
+}
+
+.text-comment h4 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.comment-area .last {
+    text-align: right;
+    width: 15%;
+}
+
+.comment-area .last img {
+    width: 20px;
+    margin-top: 35px;
+}
+
+
+/*  #####  Comment Area Ends Here  #####  */
+
+/*  #####  Subscribe Area Starts Here  #####  */
+
+.subscribe {
+    background-color: #43CB83;
+    padding: 35px 0;
+}
+
+.subscribe form {
+    text-align: center;
+}
+
+.subscribe form input {
+    background: #ffffff;
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+
+}
+
+.subscribe input[type="text"] {
+    margin-right: 20px;
+    padding-right: 200px;
+    background: #43CB83;
+}
+
+.subscribe input::placeholder {
+    color: #ffffff;
+}
+
+.subscribe input[type="submit"] {
+    color: #43CB83;
+    cursor: pointer;
+}
+
+.subscribe input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #666666;
+    border: 1px solid #666666;
+    transition: all 0.5s;
+}
+
+
+/*  #####  Subscribe Area Ends Here  #####  */
+
+/*  #####  About Company Area Ends Here  #####  */
+
+.about-company {
+    padding: 40px 0 10px 0;
+    overflow: hidden;
+    color: #363636;
+}
+
+.about-company h2 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.about-company h4 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.about-company .col-md-4 {
+    width: 30%;
+}
+
+.about-company .middle {
+    padding-left: 10%;
+}
+
+.about-company .middle nav ul {
+    padding: 0;
+}
+
+.about-company .middle nav ul li {
+    list-style: none;
+}
+
+.about-company .middle nav ul li a {
+    color: #393939;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-company .last h4 {
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.about-company .last ul {
+    padding: 0;
+    float: left;
+}
+
+.about-company .last ul li {
+    list-style: none;
+    display: inline;
+}
+
+.about-company .last ul li a {
+    margin-right: 10px;
+}
+
+.about-company .last ul li a img {
+    width: 15px;
+    height: 23px;
+}
+
+
+/*  #####  About Company Area Ends Here  #####  */
+
+/*  #####  Footer Company Area Starts Here  #####  */
+
+.footer-area {
+    color: #ffffff;
+    background-color: #2A2A2A;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer-area p {
+    font-size: 12px;
+}
+
+/*  #####  Footer Area Ends Here  #####  */
